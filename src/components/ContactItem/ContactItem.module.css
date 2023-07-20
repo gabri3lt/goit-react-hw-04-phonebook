@@ -1,0 +1,10 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  gap: 20px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
